@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HOTEL BOOK</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo">
+                    <a href="#">Logo</a>
+                </li>
+                <li>
+                    <a href="#rooms">Rooms</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="booknow">
+                    <a href="#contact">Book Now</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="banner">
+        <div class="main">
+            <div class="banner_heading">
+                <h2>Hotel Name</h2>
+            </div>
+            <div class="form">
+                <form action="">
+                    <div class="form_half" id="half1">
+                        <div class="box">
+                            <label for=""><i class="fa-regular fa-calendar"></i> Check In</label>
+                            <input type="text" placeholder="DD MM YYYY" name="CheckIn" required>
+                        </div>
+                        <div class="box">
+                            <label for=""><i class="fa-regular fa-calendar"></i> Check Out</label>
+                            <input type="text" placeholder="DD MM YYYY" name="CheckOut" required>
+                        </div>
+                    </div>
+                    <div class="form_half" id="half2">
+                        <div class="box">
+                            <label for=""><i class="fa fa-male"></i> Adults</label>
+                            <input type="number" name="Adults" min="1" max="6">
+                        </div>
+                        <div class="box">
+                            <label for=""><i class="fa fa-child"></i> Kids</label>
+                            <input type="number" name="Kids" min="0" max="6">
+                        </div>
+                    </div>
+                    <button class="button" type="submit"><i class="fa fa-search"></i> Search availability</button>
+                </form>
+            </div>
+        </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="rooms padding" id="rooms" >
+            <div class="upper">
+                <p class="section_heading">Rooms</p>
+                <p class="text">Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
+            </div>
+            <div class="middle">
+                <div class="for1">
+                    <label for=""><i class="fa-regular fa-calendar"></i> Check In</label>
+                    <input type="text" placeholder="DD MM YYYY" name="CheckIn" required>
+                </div>
+                <div class="for1">
+                    <label for=""><i class="fa-regular fa-calendar"></i> Check Out</label>
+                    <input type="text" placeholder="DD MM YYYY" name="CheckOut" required>
+                </div>
+                <div class="for2">
+                    <label for=""><i class="fa fa-male"></i> Adults</label>
+                    <input type="number" name="Adults" min="1" max="6">
+                </div>
+                <div class="for2">
+                    <label for=""><i class="fa fa-child"></i> Kids</label>
+                    <input type="number" name="Kids" min="0" max="6">
+                </div>
+                <div class="for3">
+                    <label for=""><i class="fa fa-search"></i> Search</label>
+                    <button>Search</button>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="lower_in">
+                    <img src="images/room_single.jpg" alt="" height="50%" width="425">
+                    <div class="instruction">
+                        <h3>Single Room</h3>
+                        <h6>From $99</h6>
+                        <p>Single bed</p>
+                        <p>15m<sup>2</sup></p>
+                        <p><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i></p>
+                        <button>Choose Room</button>
+                    </div>
+                </div>
+                <div class="lower_in">
+                    <img src="images/room_double.jpg" alt="" height="50%" width="425">
+                    <div class="instruction">
+                        <h3>Double Room</h3>
+                        <h6>From $149</h6>
+                        <p>Queen-size bed</p>
+                        <p>25m<sup>2</sup></p>
+                        <p><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+                        <button>Choose Room</button>
+                    </div>
+                </div>
+                <div class="lower_in">
+                    <img src="images/room_deluxe.jpg" alt="" height="50%" width="425">
+                    <div class="instruction">
+                        <h3>Deluxe Room</h3>
+                        <h6>From $199</h6>
+                        <p>King-size bed</p>
+                        <p>40m<sup>2</sup></p>
+                        <p><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i> <i class="fa fa-cutlery"></i></p>
+                        <button>Choose Room</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about padding" id="about">
+        <div class="upper">
+            <div class="left">
+                <p class="section_heading">About</p>
+                <p class="text">Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p>We accept: <i class="fa fa-credit-card"></i> <i class="fa-brands fa-cc-mastercard"></i> <i class="fa-brands fa-cc-amex"></i> <i class="fa-brands fa-cc-paypal"></i></p>
+            </div>
+            <div class="right">
+                <!-- <img src="images/map.jpg" alt="" height="500"> -->
+            </div>
+        </div>
+        <div class="middle">
+            <div><i class="fa fa-map-marker"></i> 423 Some adr, Chicago, US</div>
+            <div><i class="fa fa-phone"></i> Phone: +00 151515</div>
+            <div><i class="fa fa-envelope"></i> Email: mail@mail.com</div>
+        </div>
+        </section>
+        <div class="note">
+            <p class="text"><i class="fa-solid fa-info"></i> On demand, we can offer playstation, babycall, children care, dog equipment, etc.</p>
+        </div>
+        
+        <section class="hotel padding">
+            <div class="upper">
+                <p class="section_heading">Our Hotels</p>
+                <p class="text">You can find our hotels anywhere in the world:</p>
+            </div>
+            <div class="middle">
+                <div class="left">
+                    
+                        <img src="images/cinqueterre.jpg" alt="" height="100%" width="100%">
+                        
+                    
+                </div>
+                    
+                <div class="right">
+                    <div class="div1">
+                        <div class="div1a">
+                            <img src="images/newyork2.jpg" alt="" height="98%" width="100%">
+                            
+                        </div>
+                        <div class="div1b">
+                            <img src="images/pisa.jpg" alt="" height="98%" width="100%">
+                            
+                        </div>
+                    </div>
+                    <div class="div2">
+                        <div class="div2a">
+                            <img src="images/sanfran.jpg" alt="" height="98%" width="100%">
+                            
+                        </div>
+                        <div class="div2b">
+                            <img src="images/paris.jpg" alt="" height="98%" width="100%">
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </section>
+        <div class="Subscribe">
+            <h2>Get the best offers first!</h2>
+            <p class="text">Join our newsletter.</p>
+            <label for="">E-mail</label>
+            <input type="text" placeholder="Your Email address" name="email">
+            <button>Subscribe</button>
+        </div>
+        <section class="contact padding" id="contact">
+            <div class="upper">
+                <p class="section_heading">Contact</p>
+                <p class="text">If you have any questions, do not hesitate to ask them.</p>
+            </div>
+            <div class="middle">
+                <p><i class="fa fa-map-marker"></i> Chicago, US</p>
+                <p><i class="fa fa-phone"></i> Phone: +00 151515</p>
+                <p><i class="fa fa-envelope"> </i> Email: mail@mail.com</p>
+            </div> 
+            <div class="lower">
+                <form action="">
+                    <input type="text" placeholder="Name" name="Name" required>
+                    <input type="text" placeholder="Email" name="Email" required>
+                    <input type="text" placeholder="Message" name="Message" required>
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Find Us On</p>
+        <div class="icon">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-snapchat"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Powered by <a href="">w3.css</a></p>
+    </footer>
+
+</body>
+</html>
